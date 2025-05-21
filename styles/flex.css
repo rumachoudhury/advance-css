@@ -1,0 +1,46 @@
+.container {
+    background-color: rgb(226, 139, 33);
+    padding: 20px;
+    min-height: 50vh;
+ /* This is a div a block level element so it's taking full width but when use flex it's align parallely */
+    display: flex;
+    gap: 20px;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    /* The flex-wrap property Make the flexible items wrap if necessary */
+    /* If the elements are not flexible items, the flex-wrap property has no effect. */
+    flex-wrap: wrap;
+
+}
+
+.box {
+    background-color: bisque;
+    border: 2px solid rgb(90, 184, 173);
+    padding: 30px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    /* justify-content: center use for horizontal centering (x-axis) */
+    justify-content: center;
+    /* align-items center use for vertical centering (y-axis) */
+    align-items: center;
+
+    /* flex-basis actually fix some value for the width and height of your items  */
+    flex-basis: 100px;
+}
+
+
+.box:nth-child(4) {
+/* a pseudo-class such as `:nth-child()` can be used to target specific child elements within a Flexbox container. */
+    flex-grow: 1;
+    /* flex-grow property determines how much extra space a flex item should take up in the flex container along its main axis */
+    background-color: rgb(111, 129, 118);
+    color: white;
+}
+    

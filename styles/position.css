@@ -1,0 +1,50 @@
+body {
+    height: 200vh;
+}
+
+
+.outer-container {
+    border: 2px solid black;
+/* the viewport  means the visible area */
+    height: 75vh;
+    width: 65vw; 
+    /* when we use margin auto it's align in the center */ 
+    /* it takes 40px from top @ botton, and auto from the left @ right */  
+    margin: 40px auto;
+    /* position: relative; */
+
+}
+
+.inner-container {
+    border: 2px solid cornflowerblue;
+    height: 35vh;
+    width: 35vw;
+/* it takes 150px from top @ botton, and auto from the left @right */
+    margin: 150px auto;
+    position: relative;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    padding: 0.5rem;
+}
+
+.absolute {
+    background-color: coral;
+/* when we do positioning it is consider to parent div */
+    position: absolute;
+    top: 0 ;
+    left: 0 ;
+    /* right: 0;  */
+    /* if I want put the box right side use right: 0; or if want left side use left: 0; */
+    
+}
+
+.fixed {
+   background-color: cornflowerblue;
+   position: fixed;
+   top: 100px;
+   left: 200px;
+}

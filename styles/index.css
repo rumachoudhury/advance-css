@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* header section start */
+
+.header {
+    background-color: rgb(21, 5, 85);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    padding: 20px; 
+    color: white;  
+}
+
+ .list_item {
+   
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.sign_btn {
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+    text-align: center;
+    gap: 10px;
+    border-radius: 5px;   
+}
+/* header section end */
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+
+/* hero section start */
+.service_header_root_container {
+    background-color: rgb(10, 71, 10);
+}
+
+/* hero parent div  */
+.service_header_container {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 5%;
+    padding: 10px;
+    align-items: center;
+    height: 500px;
+}
+
+
+.number {
+    color: rgb(171, 231, 18);
+
+}
+
+/* .service_desc {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif ;
+    line-height: 1.4;
+    margin-top: 5px;
+    max-width: 95%;
+} */
+
+
+
+/* hero parent div  */
+.service_header_details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.service_header_details h2 {
+    /* color: white; */
+    line-height: 1.1;
+    font-size: 20px;
+}
+
+.service_header_details_container h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+}
+
+.service_image {
+    width: 100%;
+    /* object-fit: contain; CSS property is used to ensure that an element,
+    such as an image or a video, is resized to fit within its containe */
+    object-fit: contain;
+    height: 500px;
+}
+
+/* hero section end */
+
+
+/* offer section start */
+.offer_container h1 {
+    color: rgb(7, 80, 44);
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 25px 0 15px 0;
+
+}
+
+.offer_container_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.single_offer_container h2 {
+    font-size: 20px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 5px 10px;
+    color: rgb(135, 18, 231);
+}
+
+.single_offer_container {
+    text-align: center;
+    margin: 24px 5px;
+    border: 2px solid rgb(14, 16, 15);
+    padding: 50px 5px;
+    transition: all 0.3s;
+    box-shadow: green;
+}
+
+.single_offer_container :hover {
+    background-color: rgb(163, 174, 39);
+
+}
+
+.single_offer_container {
+    font-size: 20px;
+    font-family: 'Roboto,' sans-serif;
+    font-weight: 700;
+    /* line-height: 1px; */
+    color: rgb(6, 62, 6); 
+    border-radius: 10px;
+
+}
+/* offer section end */
+
+
+
+/* organize section start here */
+
+.organize_root_container {
+    background-color: rgb(10, 71, 10) ;
+}
+
+.organize_product_container {
+    color: white;
+   padding: 40px 20px;
+     
+}
+
+.organize_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+   
+}
+
+.organize_product_container button {
+    background-color: rgb(130, 183, 6);
+    cursor: pointer;
+}
+
+.image {
+  
+    width: 350px;
+    height: 300px;
+   
+    
+}
+
+
+ /* product ensurity section start here  */
+
+ .quality_report {
+    border: 2px solid green;
+    padding-top: 10px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */ 
+    border-radius: 10px;  
+    
+ }
+
+
+ .quality_improvement :hover {
+    background-color: rgb(163, 174, 39);
+ }
+
+ 
+ .product_ensurity_contant h1 {
+   color: rgb(6, 62, 6);
+   font-size: 30px;
+   text-align: center;
+   padding-top: 15px;
+ }
+
+ .quality_report h2 {
+    font-size: 20px;
+    color: rgb(135, 18, 231);
+ }
+
+
+ .quality_improvement { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 24px;
+    padding: 20px 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(6, 61, 6);
+    font-family: 'Roboto' sans-serif;
+
+ }
+/* product ensurity section start here  */
+
+
+ /* <!-- scalable section start here --> */
+
+.main_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: rgb(6, 62, 6);
+    font-size: 18px;           
+}
+
+
+.scalable_image {
+    width: 50%;
+    height: 500px;    
+}
+
+.application_details{
+   
+  width: 50%; 
+  padding: 80px;        
+}
+
+.application_details h1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: right;
+   color: blueviolet;
+   
+}
+ /* <!-- scalable section end here --> */
+
+
+ /* <!-- footer section start here --> */
+.footer_section {
+    background-color:rgb(10, 71, 10);
+    color: white;
+    height: 600px;
+    text-align: center;
+
+
+}
+
+.footer_information {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+   /* align-items: center; */
+    text-align: center;
+    gap: 100px;
+    padding: 50px 250px ;
+       
+}
+
+ .social_media {
+    color: rgb(115, 222, 213);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    list-style: none; 
+    gap: 10px;
+    margin-top: 10px;    
+       
+}
+
+.suport_information {
+    list-style: none;
+    text-align: center;
+    line-height: 24px;
+  
+   
+}
+
+.button {
+    background-color: rgb(115, 222, 213);
+    padding: 0 15px ;
+    border-radius: 12px;
+
+}
+
+.footer_address_container a {
+   color: rgb(115, 222, 213);
+
+}
+
+
+@media (max-width:712px) {
+    .service_header_single_service {
+        margin: 10px 5px;
+    }
+
+}
+
+@media screen and (max-width: 738px) {
+    .service_header_container {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+}
+
+
+
+
+  
+
+
+
